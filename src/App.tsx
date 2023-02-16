@@ -1,25 +1,14 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Pdftron from './components/pdftron_poc/pdftron_poc';
+import PreparePDF from './components/prepare_pdf';
+import SignPDF from './components/signPDF/SignPDF';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <h1>PDFtron Demo</h1>
+      <Pdftron/>
+    </>
   );
 }
 
