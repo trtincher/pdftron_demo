@@ -1,3 +1,8 @@
+# Intro
+
+This is a demonstration of some basic pdftron functionality. You will find the most robust set of functions to play with on `src/components/pdftron_poc/pdftron_poc.tsx`.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
